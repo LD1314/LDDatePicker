@@ -7,8 +7,11 @@
 #方法介绍
 /** 获得选中的时间 */
  
--(void)getDateWithBlock:(DatePickBlock)block;
+\- (void)getDateWithBlock:(DatePickBlock)block;
 
 /** 显示时间选择器 */
 
--(void)show;
+\- (void)show;
+
+#注意事项
+使用该控件需要 pod 'Masonry' 框架
